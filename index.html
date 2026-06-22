@@ -1,24 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davi Rodriguez Golebiovski - Página pessoal</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davi Golebiovski — BCC IME-USP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="content">
-        <div id="vasco">
-            <img src="vasco.jpg" height="80px">
-        </div>
-        <div>
-        <h1>Olá! Eu sou o Davi. 👋🏻</h1>
-        <p>
-            Essa página foi criada para a disciplina de "MAC0102 - Caminhos no Bacharelado em Ciência da Computação (2026)",
-            no IME-USP. Ao final do semestre, devo postar aqui a minha opinião sobre as trilhas do bacharelado, e qual delas
-            planejo seguir.
+
+    <div class="cursor-dot" id="cursorDot"></div>
+
+    <div class="hero">
+        <p class="hero-eyebrow">// Página Pessoal para a Disciplina MAC0102</p>
+        <h1 class="hero-name">
+            Davi<br />
+            <span>Rodriguez</span><br />
+            Golebiovski
+        </h1>
+        <p class="hero-sub">
+            Estudante de Ciência da Computação<br />
+            Instituto de Matemática e Estatística<br />
+            Universidade de São Paulo<br />
         </p>
+        <div class="hero-scroll">
+            <div class="line"></div>
+            scroll
         </div>
     </div>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="section-label">Contexto</div>
+        <div class="section-body">
+            <h2 class="section-title">Objetivo desta página.</h2>
+            <p class="section-text">
+                Prazer! Me chamo Davi Golebiovski, e sou aluno do Bacharelado em Ciência da Computação no IME-USP.
+                Esta página foi criada como atividade para a disciplina "<a
+                    href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mac0102" target="_blank"
+                    rel="noopener noreferrer">MAC0102 — Caminhos no Bacharelado em Ciência da Computação</a>",
+                que consiste em uma série de palestras ministradas por professores do instituto, cada uma sobre
+                as diferentes <a href="https://bcc.ime.usp.br/trilhas/" target="_blank"
+                    rel="noopener noreferrer">trilhas</a> oferecidas no curso.
+                No final do semestre, os alunos devem escolher a trilha que pretendem seguir, e justificar a sua escolha
+                em uma página pessoal como esta.
+            </p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="section-label">Trilha escolhida</div>
+        <div class="section-body">
+            <h2 class="section-title">Teoria da<br />Computação.</h2>
+            <p class="section-text">
+                Me interessei pela parte da computação que busca justificar o uso de determinados algoritmos, encontrar algoritmos e estruturas de dados eficientes para resolver problemas complexos, e que foca mais em entender a teoria por trás de problemas computacionais do que nas ferramentas utilizadas para resolvê-los.
+                <br/>
+
+                Em particular, tenho interesse em Teoria dos Grafos. Inclusive, comecei neste ano uma iniciação científica sobre o tema (especificamente em Emparelhamentos Perfeitos),
+                e nela pude ver como o entendimento mais profundo da matemática inerente a certos problemas computacionais é fundamental para uma resolução eficiente dos mesmos.
+                Por exemplo, como caracterizações de certas classes de grafos sugerem algoritmos polinomiais para abordar alguns de seus problemas.
+
+                <br/>
+                No geral, também me interesso pelo estudo de Algoritmos e Estruturas de Dados.
+                Gostei muito de ver, durante o curso, como a elaboração de diferentes estruturas de dados
+                permite a realização de processos tão complexos em tempo adequado.
+
+                <br />
+                Acredito que, atualmente, essa abordagem da computação seja relevante tanto no meio acadêmico quanto no ambiente corporativo.
+                Por isso, pretendo seguir a trilha de <a href="https://bcc.ime.usp.br/trilhas/trilhas-teoria-da-computacao/" target="_blank" rel="noopener noreferrer">Teoria da Computação</a>.
+            </p>
+            <div class="trilha-quote">
+                Computer science is no more about computers than astronomy is about telescopes.
+                <br/>
+                — Edsger W. Dijkstra
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="section-label">Contato</div>
+        <div class="section-body">
+            <h2 class="section-title">Onde me<br />encontrar.</h2>
+            <div class="social-grid">
+
+                <a class="social-link" href="mailto:davi.rgole@gmail.com">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <div class="platform">E-mail</div>
+                        <div class="handle">davi.rgole@gmail.com</div>
+                    </div>
+                </a>
+
+                <a class="social-link" href="https://www.linkedin.com/in/davi-gole" target="_blank" rel="noopener">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 20.45h3.56V9H3.56v11.45z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <div class="platform">LinkedIn</div>
+                        <div class="handle">in/davi-gole</div>
+                    </div>
+                </a>
+
+                <a class="social-link" href="https://www.github.com/davigole" target="_blank" rel="noopener">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7C6.73 19.91 6.14 18 6.14 18c-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <div class="platform">GitHub</div>
+                        <div class="handle">davigole</div>
+                    </div>
+                </a>
+
+                <a class="social-link" href="https://codeforces.com/profile/davigole" target="_blank" rel="noopener">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3A1.5 1.5 0 0 1 0 19.5V9A1.5 1.5 0 0 1 1.5 7.5h3zm7.5-6A1.5 1.5 0 0 1 13.5 3v16.5A1.5 1.5 0 0 1 12 21H9a1.5 1.5 0 0 1-1.5-1.5V3A1.5 1.5 0 0 1 9 1.5h3zm7.5 9A1.5 1.5 0 0 1 21 12v7.5A1.5 1.5 0 0 1 19.5 21h-3A1.5 1.5 0 0 1 15 19.5V12a1.5 1.5 0 0 1 1.5-1.5h3z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <div class="platform">Codeforces</div>
+                        <div class="handle">davigole</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>2026 · Davi Golebiovski · BCC IME-USP · MAC0102</span>
+    </footer>
+
+    <script>
+        const dot = document.getElementById('cursorDot');
+
+        let mouseX = 0, mouseY = 0;
+        let dotX = 0, dotY = 0;
+
+        document.addEventListener('mousemove', e => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animate() {
+            const ease = 0.15;
+
+            dotX += (mouseX - dotX) * ease;
+            dotY += (mouseY - dotY) * ease;
+
+            dot.style.left = dotX + 'px';
+            dot.style.top = dotY + 'px';
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+        document.addEventListener('mouseleave', () => {
+            dot.style.opacity = '0';
+        });
+
+        document.addEventListener('mouseenter', () => {
+            dot.style.opacity = '1';
+        });
+
+        const links = document.querySelectorAll("a");
+
+        links.forEach(link => {
+            link.addEventListener("mouseenter", () => {
+                dot.style.transform = "translate(-50%, -50%) scale(1.5)";
+            });
+
+            link.addEventListener("mouseleave", () => {
+                dot.style.transform = "translate(-50%, -50%) scale(1)";
+            });
+        });
+    </script>
 </body>
+
 </html>
